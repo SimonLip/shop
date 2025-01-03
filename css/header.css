@@ -1,0 +1,16 @@
+.header-nav__menu-item {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.header-nav__menu-item:hover {
+    text-decoration: underline;
+}
+
+.header-nav__menu-item::before {
+    content: "<";
+}
+
+.header-nav__menu-item::after {
+    content: ">";
+}
